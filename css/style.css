@@ -7,6 +7,10 @@
 ul{
     list-style: none;
 }
+body{
+    color: var(--color-general-bg);
+    font-family: 'Noto Sans', sans-serif;
+}
 .container{
     max-width: 1200px;
 }
@@ -41,9 +45,23 @@ ul{
     align-items: center;
     align-content: center;
 }
+.row-reverse{
+    flex-direction: row-reverse;
+}
 #jumbo{
     background-image: url('../img/jumbo.png');
     min-height: 450px;
     background-size: cover;
 }
-
+#right h2{
+    margin-top: 38px;
+}
+.white-sec{
+    background-color: var(--color-general-bg);
+}
+.grey-sec{
+    background-color: var(--color-wave-grey);
+}
+body>footer{
+    background-color: var(--color-black);
+}
