@@ -28,6 +28,9 @@ body{
 .bg{
     background-color: var(--color-nav-bg);
 }
+.black-text{
+    color: var(--color-black);
+}
 :root {
 	--color-nav-bg: #255ee9;
 	--color-general-bg: #ffffff;
@@ -48,6 +51,12 @@ body{
 .row-reverse{
     flex-direction: row-reverse;
 }
+.row{
+    flex-direction: row;
+}
+.column{
+    flex-direction: column;
+}
 #jumbo{
     background-image: url('../img/jumbo.png');
     min-height: 450px;
@@ -64,4 +73,7 @@ body{
 }
 body>footer{
     background-color: var(--color-black);
+}
+.pad{
+    padding: 20px;
 }
