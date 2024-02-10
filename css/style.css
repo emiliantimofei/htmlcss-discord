@@ -63,6 +63,9 @@ body>footer{
     background-color: var(--color-contrast);
     color: var(--color-general-bg);
 }
+.list-title{
+    color: var(--color-contrast);
+}
 :root {
 	--color-nav-bg: #255ee9;
 	--color-general-bg: #ffffff;
@@ -97,6 +100,18 @@ body>footer{
     background-image: url('../img/jumbo.png');
     min-height: 450px;
     background-size: cover;
+}
+.star{
+    background-image: url('../img/stars.svg');
+    background-size: cover;
+    width: 650px;
+    height: 60px;
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    bottom: 0;
+    left: 140px;
 }
 /*distances*/
 #right h2{
