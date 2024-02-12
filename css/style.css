@@ -163,3 +163,14 @@ body>footer{
 .kolor:hover{
     color: aqua;
 }
+
+/*svg*/
+.wave{
+    height: 100px;
+    filter: opacity(0.04);
+    background-image: url(../img/wave.svg);
+}
+
+.upside-down{
+    transform: rotate(0.5turn);
+}
